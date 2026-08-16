@@ -12,8 +12,9 @@ const articleSchema = new mongoose.Schema(
       required: true,
     },
 
-    author: {
-      type: String,
+    userId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "User",
       required: true,
     },
   },
