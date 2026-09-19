@@ -43,4 +43,21 @@ week-9-blog-api/
 ├── package.json
 ├── package-lock.json
 ├── .gitignore
+└── ├── .gitignore
 └── README.md
+
+## Deployment
+
+The Blog API has been deployed to Render.
+
+### Live API
+
+https://week-9-blog-api2.onrender.com
+
+### Live Articles Endpoint
+
+https://week-9-blog-api2.onrender.com/api/articles
+
+The live API was successfully tested using Postman with an authenticated request returning:
+
+200 OK
